@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=naveed786ahmed&label=Profile%20views&color=0e75b6&style=flat" alt="naveed786ahmed" /> </p>
 
-- 🌱 I’m currently learning **React Native, NextJs, NodeJs, MongoDB**
+- 🌱 I’m currently learning **React JS, NextJS, MongoDB**
 
 - 👨‍💻 All of my projects are available at [https://github.com/Naveed786Ahmed?tab=repositories](https://github.com/Naveed786Ahmed?tab=repositories)
 
