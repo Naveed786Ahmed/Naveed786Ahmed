@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Naveed Ahmed</h1>
 <h3 align="center">Passionate Front-End Developer | Transforming Ideas into Stunning Websites</h3>
 
-- 🌱 I’m currently learning **Mongodb**
+- 🌱 I’m currently learning **Next JS**
 
 - 👨‍💻 All of my projects are available at [https://github.com/Naveed786Ahmed?tab=repositories](https://github.com/Naveed786Ahmed?tab=repositories)
 
