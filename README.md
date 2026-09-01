@@ -1,13 +1,14 @@
 # Hi 👋, I'm Naveed Ahmed
 
-### Junior Full-Stack Developer | JavaScript • React.js • Node.js
+### Junior Full-Stack Developer | JavaScript • TypeScript • React.js • Node.js
 
 I'm a Computer Science graduate and Junior Full-Stack Developer who enjoys
 building things, understanding how they work, and turning ideas into working
 applications.
 
-My strongest area is JavaScript, with hands-on experience in React.js, Next.js,
-Node.js, Express.js, MongoDB, REST APIs, and modern frontend development.
+My strongest area is JavaScript, and I'm also building my skills in TypeScript,
+with hands-on experience in React.js, Next.js, Node.js, Express.js, MongoDB,
+REST APIs, and modern frontend development.
 
 I enjoy working on real-world problems and learning by building. Most of my
 experience so far has come through academic, hackathon, and self-initiated
@@ -19,6 +20,7 @@ projects where I've worked across both frontend and backend development.
 
 ### Frontend
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
