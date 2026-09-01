@@ -91,7 +91,7 @@ and a MERN-based backend.
 - REST API integration with Node.js and MongoDB
 - Developed as a team lead with focus on structured and maintainable development
 
-💻 **[View Repository](https://github.com/Naveed786Ahmed)**
+💻 **[View Repository](https://github.com/Naveed786Ahmed/MandiMate_Mobile_App)**
 
 ---
 
