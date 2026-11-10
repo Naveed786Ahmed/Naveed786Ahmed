@@ -4,7 +4,7 @@
 
 I build AI applications that connect language models with business workflows, internal knowledge, and external systems.
 
-My work focuses on retrieval-augmented generation, structured LLM outputs, API-driven integrations, and workflow orchestration. I'm particularly interested in the engineering challenges behind reliable AI systems—from maintaining context and managing asynchronous execution to validating outputs and keeping humans involved in critical decisions.
+My work focuses on retrieval-augmented generation, structured LLM outputs, API-driven integrations, and workflow orchestration. I'm particularly interested in the engineering challenges behind reliable AI systems from maintaining context and managing asynchronous execution to validating outputs and keeping humans involved in critical decisions.
 
 **[Portfolio](https://naveed-ahmed-portfolio.vercel.app/)** · **[LinkedIn](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)**
 
