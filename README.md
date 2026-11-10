@@ -92,7 +92,7 @@ The core engineering challenge was managing long-running processes without depen
 | **Data & Retrieval** | ChromaDB, Pinecone, Supabase, PostgreSQL, MongoDB |
 | **Development & Infrastructure** | Docker, Git, GitHub, Postman |
 
-### Agentic AI — Ongoing Technical Development
+### Agentic AI Ongoing Technical Development
 
 My broader technical development includes agent SDKs, memory architectures, multi-agent design patterns, Model Context Protocol (MCP), agent-to-agent communication (A2A), evaluation methodologies, and distributed agent orchestration concepts.
 
