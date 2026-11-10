@@ -1,166 +1,119 @@
-# Hi 👋, I'm Naveed Ahmed
+# Naveed Ahmed
 
-### Junior Full-Stack Developer | JavaScript • TypeScript • React.js • Node.js
+**AI Engineer | RAG Systems · LLM Applications · Intelligent Automation · Agentic AI**
 
-I'm a Computer Science graduate and Junior Full-Stack Developer who enjoys
-building things, understanding how they work, and turning ideas into working
-applications.
+I build AI applications that connect language models with business workflows, internal knowledge, and external systems.
 
-My strongest area is JavaScript, and I'm also building my skills in TypeScript,
-with hands-on experience in React.js, Next.js, Node.js, Express.js, MongoDB,
-REST APIs, and modern frontend development.
+My work focuses on retrieval-augmented generation, structured LLM outputs, API-driven integrations, and workflow orchestration. I'm particularly interested in the engineering challenges behind reliable AI systems—from maintaining context and managing asynchronous execution to validating outputs and keeping humans involved in critical decisions.
 
-I enjoy working on real-world problems and learning by building. Most of my
-experience so far has come through academic, hackathon, and self-initiated
-projects where I've worked across both frontend and backend development.
+**[Portfolio](https://naveed-ahmed-portfolio.vercel.app/)** · **[LinkedIn](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)**
 
 ---
 
-## 🛠️ Tech Stack
+## Engineering Focus
 
-### Frontend
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+**LLM & RAG Systems**  
+Document ingestion, embedding pipelines, semantic retrieval, grounded generation, source attribution, and response evaluation.
 
-### Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+**AI Automation & Orchestration**  
+Event-driven workflows, structured data extraction, webhook coordination, persistent execution state, and human-in-the-loop approvals.
 
-### Tools & Development
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+**Agentic Applications**  
+Tool-integrated LLM workflows, contextual decision-making, agent orchestration patterns, and controlled interactions with external services.
+
+**Backend & Integration Engineering**  
+Python services, REST APIs, database integration, authentication-aware workflows, and containerized development.
 
 ---
 
-## 🚀 Featured Projects
+## Selected Engineering Work
 
-### 🏦 Saylani Sahulat — Full-Stack Microfinance SaaS
+### [Enterprise HR Onboarding & Document Automation](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine)
 
-A full-stack microfinance platform built for the SMIT Hackathon using React.js,
-Node.js, Express.js, and MongoDB.
+*Event-driven onboarding automation with persistent workflow state and human approval controls.*
 
-**Highlights:**
-- JWT-based authentication and protected routes
-- Force password reset flow for first-time users
-- Multi-step loan application form with validation
-- Real-time loan status management through an admin dashboard
-- Automated email onboarding using Nodemailer
-- MVC-based backend structure
-- Responsive frontend with React.js and Tailwind CSS
+Designed an n8n-based onboarding workflow that coordinates AI-assisted resume processing, candidate records, document signing, and manager approvals across multiple external services.
 
-🔗 **[Live Demo](https://microfinance-app-u4l6.vercel.app/)**  
-💻 **[View Repository](https://github.com/Naveed786Ahmed/Microfinance-App)**
+The core engineering challenge was managing long-running processes without depending on a continuously active workflow execution. Candidate state is persisted in Supabase PostgreSQL, allowing subsequent DocuSign and Slack webhook events to advance the process.
 
----
+**Implementation highlights**
+- Structured resume extraction using OpenAI with schema-constrained outputs.
+- Database-backed candidate state transitions and audit records.
+- Asynchronous DocuSign signature handling through webhook-triggered workflows.
+- Interactive Slack approval and rejection paths.
+- Simulated IT provisioning following manager approval.
 
-### 🎬 MovieApp — Movie & TV Discovery Platform
+**Stack:** n8n · OpenAI API · Supabase PostgreSQL · DocuSign · Slack API · Webhooks
 
-A responsive web application built with React.js for discovering movies and
-TV shows through the TMDB API.
+[Source Code & Architecture](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine) · [System Walkthrough](https://youtu.be/gcYUnXp-SOg)
 
-**Highlights:**
-- Real-time movie and TV search
-- Dynamic routing and detailed media pages
-- TMDB API integration
-- YouTube trailer integration
-- Responsive UI using Tailwind CSS
-- Custom hooks for reusable application logic
-- Axios for API and data handling
+### Enterprise RAG Knowledge Assistant
 
-🔗 **[Live Demo](https://movie-app-cmez.vercel.app/)**  
-💻 **[View Repository](https://github.com/Naveed786Ahmed/Movie-App)**
+*Document-grounded question answering with source traceability.*
 
----
+- Built a document ingestion and retrieval pipeline using LangChain, OpenAI embeddings, and vector storage.
+- Preserved document and page metadata to support source-level citations.
+- Implemented grounded response generation with a fallback for questions unsupported by retrieved context.
+- Integrated the retrieval workflow with a FastAPI backend and designed an evaluation process using RAGAS.
 
-### 📱 MandiMate — Digital Ledger Mobile App
+**Stack:** Python · FastAPI · LangChain · OpenAI API · ChromaDB · Docker
 
-A digital ledger application developed as my Final Year Project using Flutter
-and a MERN-based backend.
+### AI Customer Support Email Gateway
 
-**Highlights:**
-- Inventory and invoice management
-- Structured data management for agents, landlords, and farmers
-- Multi-language mobile interface
-- REST API integration with Node.js and MongoDB
-- Developed as a team lead with focus on structured and maintainable development
+*Knowledge-grounded email automation with escalation controls.*
 
-💻 **[View Repository](https://github.com/Naveed786Ahmed/MandiMate_Mobile_App)**
+- Designed an email-processing pipeline that separates support requests from unrelated messages.
+- Connected classified requests to a retrieval workflow for knowledge-grounded response generation.
+- Added escalation logic for requests lacking sufficient supporting information.
+- Preserved Gmail conversation context through message and thread identifiers.
 
----
+**Stack:** n8n · OpenAI API · Pinecone · Gmail API · Webhooks
 
-## 🌱 Currently Learning
+### B2B Conversational Lead Qualification Agent
 
-I'm currently focused on strengthening my full-stack development skills,
-improving my understanding of software engineering fundamentals, and building
-more practical projects.
+*Conversational lead qualification integrated with CRM workflows.*
 
-I'm also gradually exploring **AI engineering and AI-powered applications**
-as part of my long-term learning journey.
+- Built an AI-assisted qualification flow for collecting and structuring prospect information.
+- Implemented deterministic routing based on qualification outcomes.
+- Connected conversational interactions with HubSpot CRM through API-driven workflows.
+- Incorporated conversation state handling and duplicate-record checks.
 
-My goal is to grow from full-stack development into building applications that
-combine strong software engineering with practical AI capabilities.
+**Stack:** n8n · OpenAI API · Telegram · HubSpot CRM · Webhooks
 
 ---
 
-## 🧠 What I Like to Work On
+## Technical Stack
 
-- Building full-stack web applications
-- Creating responsive and user-friendly interfaces
-- Working with APIs and data-driven applications
-- Understanding how things work behind the scenes
-- Solving practical problems through code
-- Learning new technologies by building projects
+| Area | Technologies |
+|---|---|
+| **AI & LLM Development** | OpenAI API, LangChain, RAG, Embeddings, Structured Outputs |
+| **Languages & Backend** | Python, FastAPI, JavaScript, TypeScript, Node.js |
+| **Automation & Integration** | n8n, REST APIs, Webhooks, Human-in-the-Loop Workflows |
+| **Data & Retrieval** | ChromaDB, Pinecone, Supabase, PostgreSQL, MongoDB |
+| **Development & Infrastructure** | Docker, Git, GitHub, Postman |
 
----
+### Agentic AI — Ongoing Technical Development
 
-## 📚 Background
+My broader technical development includes agent SDKs, memory architectures, multi-agent design patterns, Model Context Protocol (MCP), agent-to-agent communication (A2A), evaluation methodologies, and distributed agent orchestration concepts.
 
-🎓 **Bachelor of Science in Computer Science**  
-Benazir Bhutto Shaheed University Lyari
-
-📜 **MERN Stack Development**  
-Saylani Mass IT Training (SMIT)
+These areas complement my hands-on work with LLM applications, retrieval systems, and automated workflows.
 
 ---
 
-## 🤝 Let's Connect
+## Engineering Approach
 
-I'm currently open to **Junior Full-Stack, Frontend, React.js, and JavaScript
-Developer opportunities**.
+I approach AI development as a software engineering problem, not just a model integration task.
 
-If you're working on interesting projects, building products, or looking for
-a developer who enjoys learning and solving problems, feel free to connect.
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/naveed-ahmed-8340b6281">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/Naveed786Ahmed">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:naveedsami5000@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+- **Ground outputs in evidence.** Use retrieval, source attribution, and explicit fallback behavior where accuracy matters.
+- **Keep workflows predictable.** Separate probabilistic model decisions from deterministic business rules.
+- **Design for interruptions.** Account for retries, duplicate events, asynchronous execution, and external API failures.
+- **Maintain human control.** Introduce approval or escalation steps where automation should not make the final decision.
+- **Make systems understandable.** Favor clear architecture, structured data contracts, and documented integration boundaries.
 
 ---
 
-### 💭 A little about my journey
+## Connect
 
-I'm still early in my professional journey, and I'm intentionally focusing on
-building strong fundamentals rather than trying to learn everything at once.
+I'm interested in AI engineering opportunities and collaborations involving LLM applications, RAG systems, agentic workflows, and business automation.
 
-For me, development is not just about making something work. I want to
-understand why it works, how it can be improved, and how the pieces fit
-together.
-
-**Learning → Building → Improving → Repeating. 🚀**
+**[Portfolio](https://naveed-ahmed-portfolio.vercel.app/)** · **[LinkedIn](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)** · **[GitHub](https://github.com/Naveed786Ahmed)**
