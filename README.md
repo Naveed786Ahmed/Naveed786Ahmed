@@ -1,61 +1,57 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Naveed Ahmed — AI Engineer" width="100%" />
+<img src="assets/hero.svg" width="100%" alt="Naveed Ahmed — AI Engineer. RAG, LLM applications and intelligent automation." />
 
-<br />
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://naveed-ahmed-portfolio.vercel.app/) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-273247?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naveed-ahmed-8340b6281/) &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-273247?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naveed786Ahmed)
+[<img src="assets/button-portfolio.svg" alt="Portfolio" height="43" />](https://naveed-ahmed-portfolio.vercel.app/) &nbsp; [<img src="assets/button-linkedin.svg" alt="LinkedIn" height="43" />](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)
 
 </div>
 
-<br />
-
-I engineer AI applications that connect language models to business processes and internal knowledge. My recent work spans document-grounded retrieval, structured LLM extraction, asynchronous workflow execution, and human-in-the-loop decisions.
+I develop AI applications around real business processes—retrieval pipelines, structured model outputs, API integrations, and event-driven automation. I focus on the less visible engineering work: preserving state across external events, making outputs traceable, and defining where automated decisions should stop.
 
 ## Engineering Focus
 
-<img src="assets/focus.svg" alt="Four engineering focus areas: retrieval, LLM applications, orchestration and agentic system design" width="100%" />
+<img src="assets/focus.svg" width="100%" alt="Four areas: RAG, LLM applications, workflow systems, and agentic systems" />
 
-## Selected Work
+## Selected Engineering Work
 
-<img src="assets/projects.svg" alt="Four AI engineering projects" width="100%" />
+<img src="assets/projects.svg" width="100%" alt="Four AI engineering project summaries" />
 
-**[HR Onboarding Automation Engine — source, architecture & setup](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine)** · **[Workflow walkthrough](https://youtu.be/gcYUnXp-SOg)**
+### [HR Onboarding Automation Engine](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine)
 
-The onboarding system coordinates OpenAI-assisted candidate extraction, Supabase-backed records, DocuSign signature events, and Slack manager approvals. The key design decision is to persist onboarding state so webhook-triggered stages can progress without treating the entire process as one continuously running execution. IT account provisioning is **simulated**, not a live identity-system integration.
+An n8n-based workflow coordinating AI-assisted resume extraction, candidate records, document signing, and manager approvals. The central design choice is **database-backed onboarding state**: DocuSign and Slack webhook events advance separate stages instead of requiring one continuously running execution.
 
-The other three cards summarize engineering projects; repository links will be added when their public source and documentation are ready.
+**Implementation:** structured extraction and validation · candidate deduplication · Supabase state transitions · DocuSign sandbox callbacks · Slack approval paths · audit events. **IT provisioning is simulated**, not a live identity-system deployment.
+
+[**Explore repository & architecture**](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine) · [**Watch system walkthrough**](https://youtu.be/gcYUnXp-SOg)
+
+<details>
+<summary><b>More about the other projects</b></summary>
+
+**Enterprise RAG Knowledge Assistant** — Python/FastAPI retrieval service using document chunks, embeddings, page-level source metadata and grounded-answer fallback. Evaluation workflow designed around RAGAS.
+
+**AI Customer Support Email Gateway** — n8n pipeline for support intent classification, retrieval-backed drafting, confidence-based escalation, and Gmail thread preservation.
+
+**B2B Conversational Lead Qualification Agent** — n8n conversational qualification with structured data capture, deterministic routing, state handling, deduplication, and HubSpot CRM integration.
+
+*Public repository links will be added when their source and documentation are available.*
+</details>
 
 ## Technical Stack
 
-<table>
-<tr><th align="center">AI &amp; LLM</th><th align="center">Backend</th><th align="center">Automation</th><th align="center">Data &amp; Infrastructure</th></tr>
-<tr>
-<td align="center" width="25%"><img src="https://cdn.simpleicons.org/openai/FFFFFF" alt="OpenAI" height="34" width="34" /> &nbsp; <img src="https://cdn.simpleicons.org/langchain/FFFFFF" alt="LangChain" height="34" width="34" /><br /><sub>OpenAI · LangChain</sub></td>
-<td align="center" width="25%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" height="34" width="34" /> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI" height="34" width="34" /> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" height="34" width="34" /><br /><sub>Python · FastAPI · Node.js</sub></td>
-<td align="center" width="25%"><img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" height="34" width="34" /> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" height="34" width="34" /><br /><sub>n8n · APIs · Webhooks</sub></td>
-<td align="center" width="25%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" height="34" width="34" /> &nbsp; <img src="https://cdn.simpleicons.org/supabase/3ECF8E" alt="Supabase" height="34" width="34" /> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" height="34" width="34" /><br /><sub>PostgreSQL · Supabase · Docker</sub></td>
-</tr>
-</table>
+<img src="assets/stack.svg" width="100%" alt="AI and LLM: OpenAI, LangChain, RAG, RAGAS, agents, MCP. Backend: Python, FastAPI, Node.js, TypeScript, REST APIs, Next.js. Automation: n8n, webhooks, DocuSign, Slack, Gmail API, HubSpot. Data: PostgreSQL, Supabase, ChromaDB, Pinecone, MongoDB, Docker." />
 
-<sub>Additional experience: ChromaDB, Pinecone, MongoDB, Git, REST integrations and JavaScript/TypeScript.</sub>
+<sub>Primary implementation tools include Python, FastAPI, OpenAI API, LangChain, n8n, Supabase, ChromaDB, and REST integrations. Agent architectures and MCP are areas of ongoing technical development, not claims of production deployment. Additional software development background: React, JavaScript, Express.js, Flutter, Git.</sub>
 
-## Engineering Principles
+## Engineering Approach
 
-<img src="assets/principles.svg" alt="Engineering principles: grounding, controlled execution, human oversight, and recoverability" width="100%" />
-
-<details>
-<summary><b>Agentic AI — ongoing technical development</b></summary>
-<br />
-Exploring agent SDKs, memory architectures, MCP, agent-to-agent communication, multi-agent design and evaluation. These are areas of continued development rather than claims of production deployment.
-</details>
+<img src="assets/principles.svg" width="100%" alt="Grounded outputs, controlled execution, human oversight and recoverable workflows" />
 
 ---
 
 <div align="center">
 
-**Explore the implementations, not just the demos.**
+**Interested in the implementation details?** Explore the code and architecture, or connect about AI engineering and workflow automation.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://naveed-ahmed-portfolio.vercel.app/) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-273247?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)
+[<img src="assets/button-portfolio.svg" alt="Portfolio" height="43" />](https://naveed-ahmed-portfolio.vercel.app/) &nbsp; [<img src="assets/button-linkedin.svg" alt="LinkedIn" height="43" />](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)
 
 </div>
