@@ -1,57 +1,108 @@
-<div align="center">
+<p align="center"><img src="assets/header.svg" alt="Naveed Ahmed, AI Engineer: RAG systems, LLM applications and intelligent automation" width="100%" /></p>
 
-<img src="assets/hero.svg" width="100%" alt="Naveed Ahmed — AI Engineer. RAG, LLM applications and intelligent automation." />
+<p align="center">
+  <a href="https://naveed-ahmed-portfolio.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/naveed-ahmed-8340b6281/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-222536?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
 
-[<img src="assets/button-portfolio.svg" alt="Portfolio" height="43" />](https://naveed-ahmed-portfolio.vercel.app/) &nbsp; [<img src="assets/button-linkedin.svg" alt="LinkedIn" height="43" />](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)
-
-</div>
-
-I develop AI applications around real business processes—retrieval pipelines, structured model outputs, API integrations, and event-driven automation. I focus on the less visible engineering work: preserving state across external events, making outputs traceable, and defining where automated decisions should stop.
+I work on AI applications that need to do more than return a plausible answer. My projects deal with retrieving evidence from documents, integrating language models with existing systems, and keeping multi-step automation predictable when external services or human decisions are involved.
 
 ## Engineering Focus
 
-<img src="assets/focus.svg" width="100%" alt="Four areas: RAG, LLM applications, workflow systems, and agentic systems" />
+| LLM & RAG Systems | Workflow Automation | Agentic Applications | Backend & Integrations |
+|:---|:---|:---|:---|
+| Document ingestion, semantic retrieval, citations, evaluation | Webhook orchestration, execution state, approvals | Tool use, context management, agent patterns | Python APIs, data contracts, external services |
 
-## Selected Engineering Work
+## Selected Work
 
-<img src="assets/projects.svg" width="100%" alt="Four AI engineering project summaries" />
+<a href="https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine"><img src="assets/featured.svg" alt="HR Onboarding Automation Engine featured repository" width="100%" /></a>
 
-### [HR Onboarding Automation Engine](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine)
+**[HR Onboarding Automation Engine](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine)**
 
-An n8n-based workflow coordinating AI-assisted resume extraction, candidate records, document signing, and manager approvals. The central design choice is **database-backed onboarding state**: DocuSign and Slack webhook events advance separate stages instead of requiring one continuously running execution.
+An event-driven onboarding workflow connecting candidate intake, AI-assisted resume extraction, document signing and manager approvals. The key design decision is to persist candidate state in Supabase so later DocuSign and approval events can advance the process without relying on a continuously running execution.
 
-**Implementation:** structured extraction and validation · candidate deduplication · Supabase state transitions · DocuSign sandbox callbacks · Slack approval paths · audit events. **IT provisioning is simulated**, not a live identity-system deployment.
+`n8n` `OpenAI API` `Supabase PostgreSQL` `DocuSign` `Slack` `Webhooks`
 
-[**Explore repository & architecture**](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine) · [**Watch system walkthrough**](https://youtu.be/gcYUnXp-SOg)
+[Explore repository and architecture](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine) · [Watch workflow walkthrough](https://youtu.be/gcYUnXp-SOg)
 
-<details>
-<summary><b>More about the other projects</b></summary>
+<table>
+<tr><td width="50%" valign="top">
 
-**Enterprise RAG Knowledge Assistant** — Python/FastAPI retrieval service using document chunks, embeddings, page-level source metadata and grounded-answer fallback. Evaluation workflow designed around RAGAS.
+### Enterprise RAG Knowledge Assistant
+**Document-grounded answers with traceable sources.**
 
-**AI Customer Support Email Gateway** — n8n pipeline for support intent classification, retrieval-backed drafting, confidence-based escalation, and Gmail thread preservation.
+PDF ingestion, chunking and embedding-based retrieval, with document/page metadata carried through to citations. Includes a fallback when the retrieved context does not support an answer and an evaluation workflow using RAGAS.
 
-**B2B Conversational Lead Qualification Agent** — n8n conversational qualification with structured data capture, deterministic routing, state handling, deduplication, and HubSpot CRM integration.
+`Python` `FastAPI` `LangChain` `ChromaDB` `OpenAI`
 
-*Public repository links will be added when their source and documentation are available.*
-</details>
+</td><td width="50%" valign="top">
+
+### AI Customer Support Email Gateway
+**Support classification, retrieval and controlled escalation.**
+
+Processes incoming messages, routes support requests to a knowledge-retrieval step, and escalates cases without adequate context. Gmail message and thread identifiers are retained for replies in the original conversation.
+
+`n8n` `OpenAI` `Pinecone` `Gmail API`
+
+</td></tr>
+<tr><td width="50%" valign="top">
+
+### B2B Lead Qualification Agent
+**Conversational intake connected to CRM workflows.**
+
+Collects structured prospect details, routes leads through defined qualification branches and integrates outcomes with HubSpot. Conversation state and duplicate handling are part of the workflow design.
+
+`n8n` `OpenAI` `Telegram` `HubSpot`
+
+</td><td width="50%" valign="top">
+
+### Software Engineering Foundation
+**Web and mobile application development.**
+
+Earlier work includes a Flutter-based agricultural-market ledger developed as a university team project and a full-stack microfinance application built during a hackathon.
+
+`Flutter` `Node.js` `MongoDB` `React`
+
+</td></tr>
+</table>
 
 ## Technical Stack
 
-<img src="assets/stack.svg" width="100%" alt="AI and LLM: OpenAI, LangChain, RAG, RAGAS, agents, MCP. Backend: Python, FastAPI, Node.js, TypeScript, REST APIs, Next.js. Automation: n8n, webhooks, DocuSign, Slack, Gmail API, HubSpot. Data: PostgreSQL, Supabase, ChromaDB, Pinecone, MongoDB, Docker." />
+The tools below reflect my project work and software development background. I keep architecture concepts separate from technology logos so the stack remains readable.
 
-<sub>Primary implementation tools include Python, FastAPI, OpenAI API, LangChain, n8n, Supabase, ChromaDB, and REST integrations. Agent architectures and MCP are areas of ongoing technical development, not claims of production deployment. Additional software development background: React, JavaScript, Express.js, Flutter, Git.</sub>
+**AI application development**
 
-## Engineering Approach
+<img src="https://skillicons.dev/icons?i=py,fastapi&theme=dark" height="43" alt="Python and FastAPI" /> &nbsp; **Python · FastAPI · OpenAI API · LangChain · RAG · RAGAS**
 
-<img src="assets/principles.svg" width="100%" alt="Grounded outputs, controlled execution, human oversight and recoverable workflows" />
+**Automation and integrations**
 
----
+<img src="https://skillicons.dev/icons?i=postman,github&theme=dark" height="43" alt="API development and GitHub" /> &nbsp; **n8n · REST APIs · Webhooks · DocuSign · Slack · Gmail API · HubSpot**
 
-<div align="center">
+**Data, retrieval and infrastructure**
 
-**Interested in the implementation details?** Explore the code and architecture, or connect about AI engineering and workflow automation.
+<img src="https://skillicons.dev/icons?i=postgres,supabase,mongodb,docker&theme=dark" height="43" alt="PostgreSQL, Supabase, MongoDB and Docker" /> &nbsp; **ChromaDB · Pinecone · PostgreSQL · Supabase · MongoDB · Docker**
 
-[<img src="assets/button-portfolio.svg" alt="Portfolio" height="43" />](https://naveed-ahmed-portfolio.vercel.app/) &nbsp; [<img src="assets/button-linkedin.svg" alt="LinkedIn" height="43" />](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)
+**Software development**
 
-</div>
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,nextjs,flutter,git&theme=dark&perline=8" height="43" alt="JavaScript, TypeScript, Node.js, Express, React, Next.js, Flutter and Git" />
+
+### Agentic AI: Areas of Study
+
+Agent SDKs, tool calling, memory and context strategies, MCP, A2A, multi-agent orchestration and evaluation. These are areas of continued technical development, not claims of production deployment.
+
+## How I Approach Engineering
+
+| Grounded responses | Controlled execution | State and recovery | Human oversight |
+|:---|:---|:---|:---|
+| Preserve source context and define fallback behavior. | Keep business rules explicit around LLM decisions. | Design for webhook retries, duplicate events and interrupted workflows. | Route uncertain or consequential decisions for review. |
+
+## Connect
+
+I am open to AI engineering roles and technical collaborations involving LLM applications, RAG and workflow automation.
+
+<a href="https://naveed-ahmed-portfolio.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/View_Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" /></a> <a href="https://www.linkedin.com/in/naveed-ahmed-8340b6281/"><img alt="LinkedIn" src="https://img.shields.io/badge/Connect_on_LinkedIn-222536?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+
+<!-- To add an Email button after confirming a public contact address:
+<a href="mailto:YOUR_PUBLIC_EMAIL"><img alt="Email" src="https://img.shields.io/badge/Email-222536?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+-->
