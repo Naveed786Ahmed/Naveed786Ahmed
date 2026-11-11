@@ -1,45 +1,61 @@
-<!-- GitHub profile README: repository must be named Naveed786Ahmed -->
-<p align="center">
-  <img src="assets/header.svg" alt="Naveed Ahmed — AI Engineer, RAG systems, LLM applications and intelligent automation" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://naveed-ahmed-portfolio.vercel.app/">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/naveed-ahmed-8340b6281/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://github.com/Naveed786Ahmed">GitHub</a>
-</p>
+<img src="assets/header.svg" alt="Naveed Ahmed — AI Engineer" width="100%" />
 
-I develop AI applications that connect language models to internal knowledge, business workflows, and external services. My focus is on grounded retrieval, structured outputs, asynchronous execution, and keeping automation predictable where decisions matter.
+<br />
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://naveed-ahmed-portfolio.vercel.app/) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-273247?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naveed-ahmed-8340b6281/) &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-273247?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naveed786Ahmed)
+
+</div>
+
+<br />
+
+I engineer AI applications that connect language models to business processes and internal knowledge. My recent work spans document-grounded retrieval, structured LLM extraction, asynchronous workflow execution, and human-in-the-loop decisions.
 
 ## Engineering Focus
 
-![Four engineering focus areas: RAG, automation, agentic applications and backend integration](assets/focus.svg)
+<img src="assets/focus.svg" alt="Four engineering focus areas: retrieval, LLM applications, orchestration and agentic system design" width="100%" />
 
-## Featured Engineering Work
+## Selected Work
 
-![Overview of four AI engineering projects](assets/projects.svg)
+<img src="assets/projects.svg" alt="Four AI engineering projects" width="100%" />
 
-**01 · [HR Onboarding Automation Engine](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine)** — An n8n workflow connecting structured resume extraction, Supabase candidate state, DocuSign webhook events, and Slack approval steps. IT provisioning is simulated rather than deployed to a production identity system.  
-[Repository & architecture](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine) · [Workflow demonstration](https://youtu.be/gcYUnXp-SOg)
+**[HR Onboarding Automation Engine — source, architecture & setup](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine)** · **[Workflow walkthrough](https://youtu.be/gcYUnXp-SOg)**
 
-**02 · Enterprise RAG Knowledge Assistant** — Document ingestion and semantic retrieval with page-level source metadata, grounded answer generation, and evaluation workflows. *Repository link to be added when published.*
+The onboarding system coordinates OpenAI-assisted candidate extraction, Supabase-backed records, DocuSign signature events, and Slack manager approvals. The key design decision is to persist onboarding state so webhook-triggered stages can progress without treating the entire process as one continuously running execution. IT account provisioning is **simulated**, not a live identity-system integration.
 
-**03 · AI Customer Support Email Gateway** — Support-intent routing, knowledge-grounded drafting, escalation on insufficient context, and Gmail thread preservation. *Repository link to be added when published.*
-
-**04 · B2B Lead Qualification Agent** — Conversational qualification, structured outcomes, deterministic routing, and HubSpot CRM integration. *Repository link to be added when published.*
+The other three cards summarize engineering projects; repository links will be added when their public source and documentation are ready.
 
 ## Technical Stack
 
-![AI, backend, automation, data and infrastructure technologies](assets/stack.svg)
+<table>
+<tr><th align="center">AI &amp; LLM</th><th align="center">Backend</th><th align="center">Automation</th><th align="center">Data &amp; Infrastructure</th></tr>
+<tr>
+<td align="center" width="25%"><img src="https://cdn.simpleicons.org/openai/FFFFFF" alt="OpenAI" height="34" width="34" /> &nbsp; <img src="https://cdn.simpleicons.org/langchain/FFFFFF" alt="LangChain" height="34" width="34" /><br /><sub>OpenAI · LangChain</sub></td>
+<td align="center" width="25%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" height="34" width="34" /> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI" height="34" width="34" /> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" height="34" width="34" /><br /><sub>Python · FastAPI · Node.js</sub></td>
+<td align="center" width="25%"><img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" height="34" width="34" /> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" height="34" width="34" /><br /><sub>n8n · APIs · Webhooks</sub></td>
+<td align="center" width="25%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" height="34" width="34" /> &nbsp; <img src="https://cdn.simpleicons.org/supabase/3ECF8E" alt="Supabase" height="34" width="34" /> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" height="34" width="34" /><br /><sub>PostgreSQL · Supabase · Docker</sub></td>
+</tr>
+</table>
 
-**Additional foundation:** JavaScript, TypeScript, Express.js, MongoDB, Git, GitHub, Postman, Flutter.
-
-**Agentic AI studies:** Agent SDKs, memory patterns, multi-agent architectures, MCP, A2A, evaluation and distributed orchestration concepts. These are areas of ongoing technical development, not claims of production deployment.
+<sub>Additional experience: ChromaDB, Pinecone, MongoDB, Git, REST integrations and JavaScript/TypeScript.</sub>
 
 ## Engineering Principles
 
-![Grounded outputs, predictable workflows, human control and resilient execution](assets/principles.svg)
+<img src="assets/principles.svg" alt="Engineering principles: grounding, controlled execution, human oversight, and recoverability" width="100%" />
 
-## Connect
+<details>
+<summary><b>Agentic AI — ongoing technical development</b></summary>
+<br />
+Exploring agent SDKs, memory architectures, MCP, agent-to-agent communication, multi-agent design and evaluation. These are areas of continued development rather than claims of production deployment.
+</details>
 
-For AI engineering roles, technical collaborations, and workflow automation projects: **[Portfolio](https://naveed-ahmed-portfolio.vercel.app/)** · **[LinkedIn](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)**
+---
+
+<div align="center">
+
+**Explore the implementations, not just the demos.**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://naveed-ahmed-portfolio.vercel.app/) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-273247?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naveed-ahmed-8340b6281/)
+
+</div>
