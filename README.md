@@ -16,9 +16,19 @@ I work on AI applications that need to do more than return a plausible answer. M
 
 ## Selected Work
 
-<a href="https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine"><img src="assets/featured.svg" alt="HR Onboarding Automation Engine featured repository" width="100%" /></a>
+### DocuTrace | Document-Grounded RAG Knowledge Assistant
 
-**[HR Onboarding Automation Engine](https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine)**
+**Ask questions across internal PDFs and inspect the sources behind each answer.**
+
+DocuTrace is an independently built RAG application inspired by a real document-search requirement. I implemented it against a sample knowledge base of 26 PDFs across seven departments. The pipeline extracts page-level text, creates embeddings, retrieves relevant passages from ChromaDB and uses those passages to generate answers. Responses include links to the original PDF pages, with a defined fallback for questions the documents cannot support. The project also includes retrieval evaluation and a Docker-based application setup.
+
+`Python` `PyMuPDF` `LangChain` `OpenAI` `ChromaDB` `FastAPI` `React` `Docker`
+
+[Explore repository and architecture](https://github.com/Naveed786Ahmed/Docutrace-RAG-Platform) · [Watch project walkthrough](https://youtu.be/zwFoZFLQMjg)
+
+### HR Onboarding Automation Engine
+
+<a href="https://github.com/Naveed786Ahmed/HR-Onboarding-Automation-Engine"><img src="assets/featured.svg" alt="HR Onboarding Automation Engine featured repository" width="100%" /></a>
 
 An event-driven onboarding workflow connecting candidate intake, AI-assisted resume extraction, document signing and manager approvals. The key design decision is to persist candidate state in Supabase so later DocuSign and approval events can advance the process without relying on a continuously running execution.
 
@@ -29,15 +39,6 @@ An event-driven onboarding workflow connecting candidate intake, AI-assisted res
 <table>
 <tr><td width="50%" valign="top">
 
-### Enterprise RAG Knowledge Assistant
-**Document-grounded answers with traceable sources.**
-
-PDF ingestion, chunking and embedding-based retrieval, with document/page metadata carried through to citations. Includes a fallback when the retrieved context does not support an answer and an evaluation workflow using RAGAS.
-
-`Python` `FastAPI` `LangChain` `ChromaDB` `OpenAI`
-
-</td><td width="50%" valign="top">
-
 ### AI Customer Support Email Gateway
 **Support classification, retrieval and controlled escalation.**
 
@@ -45,8 +46,7 @@ Processes incoming messages, routes support requests to a knowledge-retrieval st
 
 `n8n` `OpenAI` `Pinecone` `Gmail API`
 
-</td></tr>
-<tr><td width="50%" valign="top">
+</td><td width="50%" valign="top">
 
 ### B2B Lead Qualification Agent
 **Conversational intake connected to CRM workflows.**
@@ -55,17 +55,14 @@ Collects structured prospect details, routes leads through defined qualification
 
 `n8n` `OpenAI` `Telegram` `HubSpot`
 
-</td><td width="50%" valign="top">
+</td></tr>
+</table>
 
 ### Software Engineering Foundation
-**Web and mobile application development.**
 
 Earlier work includes a Flutter-based agricultural-market ledger developed as a university team project and a full-stack microfinance application built during a hackathon.
 
 `Flutter` `Node.js` `MongoDB` `React`
-
-</td></tr>
-</table>
 
 ## Technical Stack
 
@@ -73,7 +70,7 @@ The tools below reflect my project work and software development background. I k
 
 **AI application development**
 
-<img src="https://skillicons.dev/icons?i=py,fastapi&theme=dark" height="43" alt="Python and FastAPI" /> &nbsp; **Python · FastAPI · OpenAI API · LangChain · RAG · RAGAS**
+<img src="https://skillicons.dev/icons?i=py,fastapi&theme=dark" height="43" alt="Python and FastAPI" /> &nbsp; **Python · FastAPI · PyMuPDF · OpenAI API · LangChain · RAG · RAGAS**
 
 **Automation and integrations**
 
@@ -81,7 +78,7 @@ The tools below reflect my project work and software development background. I k
 
 **Data, retrieval and infrastructure**
 
-<img src="https://skillicons.dev/icons?i=postgres,supabase,mongodb,docker&theme=dark" height="43" alt="PostgreSQL, Supabase, MongoDB and Docker" /> &nbsp; **ChromaDB · Pinecone · PostgreSQL · Supabase · MongoDB · Docker**
+<img src="https://skillicons.dev/icons?i=postgres,supabase,mongodb,docker&theme=dark" height="43" alt="PostgreSQL, Supabase, MongoDB and Docker" /> &nbsp; **ChromaDB · Pinecone · PostgreSQL · Supabase · MongoDB · Docker · Nginx**
 
 **Software development**
 
