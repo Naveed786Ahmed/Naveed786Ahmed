@@ -19,7 +19,7 @@ I work on AI applications that need to do more than return a plausible answer. M
 ### DocuTrace | Document-Grounded RAG Knowledge Assistant
 
 <a href="https://github.com/Naveed786Ahmed/Docutrace-RAG-Platform">
-  <img src="assets/docutrace-featured.png"
+  <img src="assets/DocuTrace RAG Knowledge Assistant Banner.png"
        alt="DocuTrace RAG Knowledge Assistant featured repository"
        width="100%" />
 </a>
