@@ -18,7 +18,11 @@ I work on AI applications that need to do more than return a plausible answer. M
 
 ### DocuTrace | Document-Grounded RAG Knowledge Assistant
 
-**Ask questions across internal PDFs and inspect the sources behind each answer.**
+<a href="https://github.com/Naveed786Ahmed/Docutrace-RAG-Platform">
+  <img src="assets/docutrace-featured.png"
+       alt="DocuTrace RAG Knowledge Assistant featured repository"
+       width="100%" />
+</a>
 
 DocuTrace is an independently built RAG application inspired by a real document-search requirement. I implemented it against a sample knowledge base of 26 PDFs across seven departments. The pipeline extracts page-level text, creates embeddings, retrieves relevant passages from ChromaDB and uses those passages to generate answers. Responses include links to the original PDF pages, with a defined fallback for questions the documents cannot support. The project also includes retrieval evaluation and a Docker-based application setup.
 
